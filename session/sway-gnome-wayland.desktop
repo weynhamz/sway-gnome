@@ -2,7 +2,8 @@
 
 [Desktop Entry]
 Comment=GNOME session management + sway
-Exec=gnome-session --session=sway-gnome
 Name=GNOME + sway
-TryExec=gnome-session
+Exec=gnome-session-sway
+TryExec=gnome-session-sway
 Type=Application
+DesktopNames=GNOME

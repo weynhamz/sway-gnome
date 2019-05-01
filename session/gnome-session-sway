@@ -1,0 +1,2 @@
+#! /bin/sh
+env GNOME_SHELL_SESSION_MODE=wayland gnome-session --session sway-gnome "$@"
