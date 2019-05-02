@@ -1,12 +1,10 @@
-# -*- mode: conf -*-
-
 [Desktop Entry]
-Comment=Improved dynamic tiling window manager, registers with gnome session manager.
-Exec=sway-gnome
-Name=sway-gnome
 Type=Application
+Name=sway-gnome
 NoDisplay=true
-X-GNOME-Autostart-Notify=false
+Comment=improved dynamic tiling window manager
+Exec=sway-gnome
+X-GNOME-WMName=sway-gnome
 X-GNOME-Autostart-Phase=WindowManager
 X-GNOME-Provides=windowmanager
-X-GNOME-WMName=sway
+X-GNOME-Autostart-Notify=false

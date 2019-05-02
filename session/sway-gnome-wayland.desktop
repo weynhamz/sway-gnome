@@ -1,9 +1,8 @@
-# -*- mode: conf -*-
-
 [Desktop Entry]
-Comment=GNOME session management + sway
-Name=GNOME + sway
+Name=sway + GNOME
+Comment=This session logs you into sway with GNOME session integration
 Exec=gnome-session-sway
-TryExec=gnome-session-sway
+TryExec=sway-gnome
 Type=Application
 DesktopNames=GNOME
+X-Ubuntu-Gettext-Domain=gnome-session-3.0
